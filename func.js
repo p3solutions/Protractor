@@ -30,8 +30,8 @@ exports.config = {
   // protractor is called.
   //specs: ['negsignin.js'],
 //  specs: ['profile.js' ],
-  specs: ['workspace.js'],
-//  specs: ['sign.js'],
+  //specs: ['workspace.js'],
+specs: ['sign.js'],
   //specs: ['Create_DB.js'],
   
 //  
