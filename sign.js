@@ -1,7 +1,8 @@
 describe('Sign-In',function(){
 it('into archon web application', function(){
 	//browser.waitForAngularEnabled(false);
-browser.get('http://54.148.17.17/sign-in');
+	browser.ignoreSynchronization = true;
+browser.get(browser.baseUrl);
 
 browser.driver.manage().window().maximize();
 

@@ -25,6 +25,7 @@ exports.config = {
 
   // Framework to use. Jasmine is recommended.
   framework: 'jasmine',
+  baseUrl: 'http://54.148.17.17/sign-in'
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
